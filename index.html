@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Minesweeper</title>
+        <link rel="icon" type="image/png" href="1.png">
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js"></script>
+    </head>
+
+    <body>
+        <main>
+        <header>
+            <nav>
+                <h1>Minesweeper</h1>
+            </nav>
+         </header>   
+        <h1>Mines: <span id="mines-count">0</span></h1>
+        <div id="board"></div>
+        <br>
+        <button id="flag-button">🚩</button>
+        <div id="gameOver">
+            <div id="won">
+                <p>You Won!</p>
+                    <button class="playAgain">Play Again!</button>
+            </div>
+                <div id="lost">
+                    <p>You Lost!</p>
+                    <button class="playAgain">Play Again!</button>
+            </div>    
+        </div>
+        <footer></footer>
+    </main>
+    </body>
+</html>
